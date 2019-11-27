@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <ImageView fitHeight="598.0" fitWidth="929.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Resources/fondo.jpg" />
+            </image>
+        </ImageView>
+        <Label layoutX="14.0" layoutY="14.0" text="Informacion del Empleado" textFill="WHITE">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Label>
+        <Label layoutX="15.0" layoutY="96.0" text="Clave:" textFill="WHITE">
+            <font>
+                <Font size="21.0" />
+            </font>
+        </Label>
+        <Label layoutX="354.0" layoutY="96.0" text="Nombre:" textFill="WHITE">
+            <font>
+                <Font size="21.0" />
+            </font>
+        </Label>
+        <Label layoutX="675.0" layoutY="96.0" text="CURP:" textFill="WHITE">
+            <font>
+                <Font size="21.0" />
+            </font>
+        </Label>
+        <Label layoutX="18.0" layoutY="224.0" text="Direccion:" textFill="WHITE">
+            <font>
+                <Font size="21.0" />
+            </font>
+        </Label>
+        <Label layoutX="360.0" layoutY="224.0" text="Telefono:" textFill="WHITE">
+            <font>
+                <Font size="21.0" />
+            </font>
+        </Label>
+        <Label layoutX="685.0" layoutY="224.0" text="Clave Puesto:" textFill="WHITE">
+            <font>
+                <Font size="21.0" />
+            </font></Label>
+
+        <TextField fx:id="txtClave" layoutX="18.0" layoutY="135.0" prefHeight="31.0" prefWidth="225.0" promptText="Clave" />
+        <TextField fx:id="txtNombre" layoutX="353.0" layoutY="135.0" prefHeight="31.0" prefWidth="225.0" promptText="Nombre" />
+        <TextField fx:id="txtCURP" layoutX="675.0" layoutY="135.0" prefHeight="31.0" prefWidth="225.0" promptText="CURP" />
+        <TextField fx:id="txtDireccion" layoutX="18.0" layoutY="255.0" prefHeight="31.0" prefWidth="225.0" promptText="Direccion" />
+        <Button fx:id="btnGuardar" layoutX="243.0" layoutY="463.0" mnemonicParsing="false" text="Guardar ">
+            <font>
+                <Font size="21.0" />
+            </font>
+        </Button>
+        <Button fx:id="btnCancelar" layoutX="578.0" layoutY="463.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="109.0" text="Cancelar">
+            <font>
+                <Font size="21.0" />
+            </font>
+        </Button>
+        <TextField fx:id="txtTelefono" layoutX="352.0" layoutY="255.0" prefHeight="31.0" prefWidth="225.0" promptText="Telefono" />
+        <TextField fx:id="txtPuesto" layoutX="675.0" layoutY="255.0" prefHeight="31.0" prefWidth="225.0" promptText="Puesto" />
+      <Label layoutX="15.0" layoutY="341.0" text="Clave Agencia:" textFill="WHITE">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="354.0" layoutY="341.0" text="Ciudad" textFill="WHITE">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="670.0" layoutY="341.0" text="Estado:" textFill="WHITE">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextField layoutX="14.0" layoutY="372.0" prefHeight="31.0" prefWidth="225.0" promptText="Agencia" fx:id="txtAgencia"/>
+      <TextField layoutX="353.0" layoutY="372.0" prefHeight="31.0" prefWidth="225.0" promptText="Ciudad" fx:id="txtCiudad"/>
+      <TextField layoutX="670.0" layoutY="372.0" prefHeight="31.0" prefWidth="225.0" promptText="Estado" fx:id="txtEstado"/>
+    </children>
+</AnchorPane>

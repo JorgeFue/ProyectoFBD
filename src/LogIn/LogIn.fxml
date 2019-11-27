@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="784.0" style="-fx-background-color: #0b5345;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LogIn.LogInController">
+    <ImageView fitHeight="401.0" fitWidth="399.0">
+        <image>
+            <Image url="@../Resources/imagen.png" />
+        </image></ImageView>
+
+
+    <BorderPane layoutX="424.0" layoutY="99.0" prefHeight="244.0" prefWidth="320.0" style="-fx-background-color:  #0b5345  ;">
+        <top>
+            <VBox alignment="CENTER" BorderPane.alignment="CENTER">
+                <Label text="Log In" textFill="WHITE">
+                    <font>
+                        <Font size="35.0" />
+                    </font>
+                </Label>
+                <Label text="" />
+                <TextField fx:id="txtUsuario" alignment="CENTER" promptText="User Key" />
+                <Label text="" />
+                <Label fx:id="lblAviso" text="" />
+                <Button fx:id="btnLogIn" text="Log In" />
+            </VBox>
+        </top>
+    </BorderPane>
+    <Label layoutX="480.0" text="WELCOME" textFill="WHITE">
+        <font>
+            <Font size="44.0" />
+        </font>
+    </Label>
+</AnchorPane>

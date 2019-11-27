@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="Seguro.PolizasController" prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <ImageView fitHeight="600.0" fitWidth="929.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Resources/fondo.jpg" />
+            </image>
+        </ImageView>
+        <TableView fx:id="tvlPoliza" layoutX="34.0" layoutY="33.0" prefHeight="533.0" prefWidth="632.0"/>
+        <Button fx:id="btnNuevo" layoutX="692.0" layoutY="89.0" mnemonicParsing="false" text="Agregar Poliza">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Button>
+        <Button fx:id="btnEditar" layoutX="692.0" layoutY="195.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="208.0" text="Editar Poliza">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Button>
+        <Button fx:id="btnBorrar" layoutX="693.0" layoutY="300.0" mnemonicParsing="false" text="Eliminar Poliza">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
